@@ -1,0 +1,54 @@
+body{
+    background-color: teal;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0%;  
+}
+
+.current-time{
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+.time-rem{
+    background-color: aliceblue;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.current-time p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+.btn{
+    margin-top: 5%;
+    height: 70px;
+    width: 120px;
+    border-radius: 15%;
+    font-weight: bold;
+    margin: auto;
+}
+.btn:hover{
+    background-color: rgb(72, 225, 42);
+}
+
+.btn:focus{
+    background-color: aqua;
+
+}
+
+.alarm_text{
+
+    margin-top: 20px;
+    font-size: 30px;
+}
